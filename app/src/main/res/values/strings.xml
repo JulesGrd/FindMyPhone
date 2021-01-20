@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Find My Phone</string>
+    <string name="response_fail">Impossible de localiser le téléphone</string>
+    <string name="response_fail_gps_disable">Impossible de localiser le téléphone le GPS est désactivé</string>
+    <string name="response_fail_gps_permission_denied">"Impossible de localiser le téléphone l'application n'a pas le droit d'acceder au gps"</string>
+    <string name="response_warn_last_position">"Le téléphone n'arrive pas à se localiser, voici la dernière position connue enregistrée.\n;;/!\\ ATTENTION les informations peuvent datée de plusieurs jours.\n"</string>
+    <string name="response_success">Le téléphone se localise à ces coordonnées :\n</string>
+    <string name="response1">Information datée du %1$s.\n</string>
+    <string name="response2">Latitude : %1$f\nLongitude : %2$f\n</string>
+    <string name="response3">Altitude : %1$fm\nCap : %2$f\nVitesse : %3$f\n</string>
+    <string name="preferences_file_key">shared_preferences_file</string>
+    <string name="access_fine_location">ACCESS_FINE_LOCATION</string>
+    <string name="access_background_location">ACCESS_BACKGROUND_LOCATION</string>
+    <string name="receive_sms">RECEIVE_SMS</string>
+    <string name="send_sms">SEND_SMS</string>
+    <string name="check_or_not_check">check or not check</string>
+    <string name="permissions">Permissions</string>
+    <string name="gps_network">GPS / Réseaux</string>
+    <string name="gps_enable">GPS enable</string>
+    <string name="network_access">network access</string>
+</resources>

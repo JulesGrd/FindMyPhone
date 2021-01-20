@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- | STYLES | -->
+
+    <!-- TEXT VIEW -->
+    <style name="FindMyPhoneText" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="FindMyPhoneText.Title">
+        <item name="android:textSize">@dimen/text_title</item>
+    </style>
+
+    <style name="FindMyPhoneText.SubTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_subtitle</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/moderate_padding</item>
+    </style>
+
+    <style name="FindMyPhoneText.Permission" parent="@style/TextAppearance.AppCompat">
+        <item name="android:layout_height">@dimen/small_height</item>
+        <item name="android:layout_width">@dimen/two_thirds_width</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/small_padding</item>
+        <item name="android:textSize">@dimen/text_normal</item>
+    </style>
+
+
+    <!--IMAGE VIEW-->
+    <style name="FindMyPhoneImageView" />
+
+    <style name="FindMyPhoneImageView.Permission">
+        <item name="android:layout_height">@dimen/small_height</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:src">@drawable/ic_close</item>
+        <item name="android:contentDescription">@string/check_or_not_check</item>
+    </style>
+
+    <!-- BUTTON -->
+    <style name="FindMyPhoneButton" parent="Widget.AppCompat.Button.Colored" />
+
+    <!--    LINEAR LAYOUT-->
+    <style name="LinearLayout">
+
+    </style>
+
+    <style name="LinearLayout.Slice">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <dimen name="moderate_padding">10dp</dimen>
+</resources>
+
